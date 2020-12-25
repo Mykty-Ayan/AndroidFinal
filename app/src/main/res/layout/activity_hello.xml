@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:backgroundTint="@color/bg_yogurt"
+    tools:context=".hello.HelloActivity"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <ImageView
+        android:layout_marginTop="60dp"
+        android:layout_gravity="center"
+        android:layout_width="240dp"
+        android:layout_height="240dp"
+        android:src="@drawable/ic_phone" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/questrial"
+        android:textColor="@color/text_color_dark"
+        android:textStyle="bold"
+        android:textSize="32sp"
+        android:layout_gravity="center"
+        android:text="@string/activity_hello_welcome_text"
+        android:layout_marginBottom="8dp" />
+
+    <TextView
+        android:layout_width="272dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="48dp"
+        android:textAlignment="center"
+        android:fontFamily="@font/questrial"
+        android:text="@string/activity_hello_introduction_text"
+        android:textColor="@color/text_color_light"
+        android:textSize="16sp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/activity_hello_sign_up_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/button_sign_up_text"
+        android:textColor="@color/white"
+        android:fontFamily="@font/questrial"
+        android:background="@drawable/bg_sign_up_button"
+        android:textStyle="bold"
+        android:textAllCaps="false"
+        android:layout_margin="8dp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/activity_hello_log_in_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:background="@drawable/bg_log_in_button"
+        android:fontFamily="@font/questrial"
+        android:elevation="20dp"
+        android:text="@string/activity_hello_log_in_button_text"
+        android:textAllCaps="false"
+        android:textColor="@color/light_blue"
+        android:textStyle="bold" />
+
+</LinearLayout>

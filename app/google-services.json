@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "812058715583",
+    "project_id": "seeds-58aef",
+    "storage_bucket": "seeds-58aef.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:812058715583:android:e65f794df3480be2206d0a",
+        "android_client_info": {
+          "package_name": "com.ayan.seedsfinal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "812058715583-6aftefnb37i1mq60r4ins56vjgcc4qvu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCxAVhdKqL6rtzCP890ghCXS3FCtnegzDI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "812058715583-6aftefnb37i1mq60r4ins56vjgcc4qvu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
